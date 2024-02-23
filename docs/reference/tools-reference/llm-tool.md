@@ -31,6 +31,9 @@ Setup connections to provisioned resources in prompt flow.
 | OpenAI      | Required | Required | -        | -           |
 | AzureOpenAI | Required | Required | Required | Required    |
 
+### Updating the API Version
+
+to update the API Version (see "Supported versions" [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference)) you can update the "API version" string of the AzureOpenAI Connection.
 
 ## Inputs
 ### Text Completion
